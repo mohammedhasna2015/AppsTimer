@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مؤقت التطبيقات</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_dashboard">تفاصيل المؤقت</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+
+    <string name="title_settings">الاعدادات</string>
+    <string name="home_txt">قم بإدارة التطبيقات ضمن الفئات التالية</string>
+    <string name="games">ألعاب</string>
+    <string name="entertainment">ترفيه</string>
+    <string name="social">اجتماعي</string>
+    <string name="others">تطبيقات أخرى</string>
+    <string name="select_days">اختر أيام محددة</string>
+    <string name="select_date_range">حدد الفترة الزمنية</string>
+    <string name="start_date">تاريخ البدء</string>
+    <string name="end_date">تاريخ الانتهاء</string>
+    <string name="set_time">حدد مدة التفعيل لليوم الواحد</string>
+    <string name="hours">ساعة</string>
+    <string name="minutes">دقيقة</string>
+    <string name="done">تم</string>
+    <string name="add_apps_to_category">أضف تطبيقات لهذه الفئة</string>
+    <string name="block_all">حدد كافة التطبيقات</string>
+    <string name="no_apps">لا يوجد تطبيقات مضافة إلى هذه الفئة</string>
+    <string name="set_timer">ضبط الوقت</string>
+    <string name="installed_apps">التطبيقات المثبتة</string>
+    <string name="no_locked_apps">لم تقم باختيار أي تطبيق في هذه الفئة</string>
+    <string name="missing_date">يجب عليك تحديد تاريخ البدء والانتهاء</string>
+    <string name="cancel">إلغاء</string>
+    <string name="discard">تجاهل</string>
+    <string name="changes_discarded">لن يتم حفظ التغيرات التي أجريتها</string>
+
+    <string name="accessibility_service_description">الحصول علي معلومات النشاط</string>
+    <string name="not_specified">غير محدد</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="confirm_remove_app">هل أنت متأكد أنك تريد حذف التطبيق من هذه الفئة؟</string>
+    <string name="stop_timer">إيقاف المؤقت</string>
+    <string name="start_timer"> بدء المؤقت</string>
+    <string name="run_out_of_time">لقد انتهى الوقت المحدد لهذا التطبيق لهذا اليوم</string>
+    <string name="block_txt">سوف تكون قادر على استخدامه بعد الساعة 12 ص</string>
+    <string name="start">إبدأ</string>
+    <string name="slide1_txt">خيارك الأفضل في متابعة أبنائك</string>
+    <string name="slide2_txt">يتيح لك ضبط الوقت المسموح لاستخدام التطبيقات</string>
+    <string name="slide3_txt">لا قلق حيال أبنائك بعد الآن</string>
+    <string name="be_reassured">كن مطمئناً</string>
+    <string name="next"><![CDATA[ >> التالي ]]></string>
+    <string name="total_time_in_day">  الوقت المحدد في اليوم :</string>
+    <string name="reminde_time">الوقت المتبقي :</string>
+    <string name="general">عام</string>
+    <string name="language">اللغة</string>
+    <string name="security_settings">إعدادات الأمان</string>
+    <string name="about">حول التطبيق</string>
+    <string name="app_version">إصدار التطبيق 1.0</string>
+    <string name="change_security_num">تغيير رقم الأمان</string>
+    <string name="block_device_settings">قفل إعدادات الجهاز</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="current_num">الرقم الحالي</string>
+    <string name="new_number">الرقم الجديد</string>
+    <string name="confirm_number">تأكيد الرقم الجديد</string>
+    <string name="empty_error">هذا الحقل لا يمكن أن يكون فارغاً</string>
+    <string name="wrong_num">رقم خاطئ</string>
+    <string name="no_match">لا يوجد تطابق</string>
+    <string name="add_security_number">إضافة رقم الأمان</string>
+    <string name="enter_security_num">أدخل رقم الأمان الخاص بك هنا</string>
+    <string name="add_security_num_txt">سيتم إخفاء أيقونة التطبيق بمجرد إغلاقه. لذلك ستكون بحاجة إلي رقم الأمان لتتمكن من اظهارها مرة أخرى واستخدام التطبيق. \n لاظهار الأيقونة عليك الاتصال إلى رقم الأمان الخاص بك</string>
+    <string name="security_note">يجب عليك تذكر هذا الرقم كلما أردت استخدام التطبيق</string>
+    <string name="enter_your_security_number">أدخل رقم الأمان الخاص بك</string>
+    <string name="rate">قيم التطبيق</string>
+    <string name="dont_show_again">لا تظهره مرة أخرى</string>
+    <string name="check_access">التحقق من إمكانية الوصول للتطبيقات</string>
+    <string name="go_to_accessibility_settings">الذهاب إلى إعدادات امكانية الوصول</string>
+    <string name="check_access_txt">عليك تفعيل امكانية وصول هذا التطبيق للتطبيقات المفتوحة حتى يعمل المؤقت بشكل صحيح</string>
+    <string name="privacy">الخصوصية</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="yes">نعم</string>
+    <string name="confirm_exit">هل أنت متأكد أنك تريد الخروج من التطبيق؟</string>
+    <string name="no">لا</string>
+</resources>

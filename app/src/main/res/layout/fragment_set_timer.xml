@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.SetTimerFragment"
+    android:layout_margin="@dimen/margin15">
+
+<!-- TODO: Update blank fragment layout -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/set_time"
+    android:layout_marginEnd="@dimen/margin10"
+    android:layout_marginStart="@dimen/margin10"
+    android:layout_marginTop="@dimen/margin15"
+    android:textAlignment="viewStart"
+    android:gravity="start"
+    android:textColor="#000"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:weightSum="3"
+    >
+    <EditText
+        android:id="@+id/et_hr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:hint="@string/hours"
+        android:padding="@dimen/margin10"
+        android:textAlignment="center"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/et_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:hint="@string/minutes"
+        android:padding="@dimen/margin10"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+</LinearLayout>
+<RadioButton
+    android:id="@+id/rb_days"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_days"
+    android:checked="true"
+    android:textAlignment="viewStart"
+    android:gravity="start|center_vertical"
+    android:layout_marginTop="@dimen/margin20"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="start"
+    android:layout_marginTop="@dimen/margin5"
+   >
+
+    <ToggleButton
+        android:id="@+id/sun"
+        android:layout_width="@dimen/toggle_size"
+        android:layout_height="@dimen/toggle_size"
+        android:layout_margin="@dimen/margin5"
+        android:background="@drawable/toggle_background"
+        style="@style/toggleButton"
+        android:textOff="S"
+        android:textOn="S"
+        />
+
+    <ToggleButton
+        android:id="@+id/mon"
+        android:layout_width="@dimen/toggle_size"
+        android:layout_height="@dimen/toggle_size"
+        android:layout_margin="@dimen/margin5"
+        android:background="@drawable/toggle_background"
+        style="@style/toggleButton"
+        android:textOff="M"
+        android:textOn="M"/>
+
+    <ToggleButton
+        android:id="@+id/tues"
+        android:layout_width="@dimen/toggle_size"
+        android:layout_height="@dimen/toggle_size"
+        android:layout_margin="@dimen/margin5"
+        android:background="@drawable/toggle_background"
+        style="@style/toggleButton"
+        android:textOff="T"
+        android:textOn="T"/>
+
+    <ToggleButton
+        android:id="@+id/wed"
+        android:layout_width="@dimen/toggle_size"
+        android:layout_height="@dimen/toggle_size"
+        android:layout_margin="@dimen/margin5"
+        android:background="@drawable/toggle_background"
+        style="@style/toggleButton"
+        android:textOff="W"
+        android:textOn="W"/>
+
+    <ToggleButton
+        android:id="@+id/thur"
+        android:layout_width="@dimen/toggle_size"
+        android:layout_height="@dimen/toggle_size"
+        android:layout_margin="@dimen/margin5"
+        android:background="@drawable/toggle_background"
+        style="@style/toggleButton"
+        android:textOff="T"
+        android:textOn="T"/>
+
+    <ToggleButton
+        android:id="@+id/fri"
+        android:layout_width="@dimen/toggle_size"
+        android:layout_height="@dimen/toggle_size"
+        android:layout_margin="@dimen/margin5"
+        android:background="@drawable/toggle_background"
+        style="@style/toggleButton"
+        android:textOff="F"
+        android:textOn="F"/>
+
+    <ToggleButton
+        android:id="@+id/sat"
+        android:layout_width="@dimen/toggle_size"
+        android:layout_height="@dimen/toggle_size"
+        android:layout_margin="@dimen/margin5"
+        android:background="@drawable/toggle_background"
+        style="@style/toggleButton"
+        android:textOff="S"
+        android:textOn="S"/>
+
+</LinearLayout>
+
+<RadioButton
+    android:id="@+id/rb_date_range"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_date_range"
+    android:textAlignment="viewStart"
+    android:gravity="start|center_vertical"
+    android:layout_marginTop="@dimen/margin15"/>
+
+<TextView
+    android:id="@+id/tv_start_date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/start_date"
+    android:layout_margin="@dimen/margin10"
+    android:drawableStart="@drawable/ic_date_range"
+    android:drawablePadding="@dimen/margin5"
+    android:textAlignment="viewStart"
+    android:textColor="#000"
+    android:textSize="@dimen/txtSize14"
+    android:padding="@dimen/margin5"
+    android:background="@drawable/txt_border_primary"
+    android:layout_marginTop="@dimen/margin5"
+    android:enabled="false"/>
+
+
+<TextView
+    android:id="@+id/tv_end_date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/end_date"
+    android:layout_marginEnd="@dimen/margin10"
+    android:layout_marginStart="@dimen/margin10"
+    android:drawableStart="@drawable/ic_date_range"
+    android:drawablePadding="@dimen/margin5"
+
+    android:textAlignment="viewStart"
+    android:textColor="#000"
+    android:textSize="@dimen/txtSize14"
+    android:padding="@dimen/margin5"
+    android:background="@drawable/txt_border_primary"
+    android:enabled="false"/>
+
+<Button
+    android:id="@+id/btn_timer_done"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin15"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/margin30"
+    android:text="@string/done"
+    android:background="@drawable/background_home_red"
+    android:textColor="#fff"/>
+</LinearLayout>

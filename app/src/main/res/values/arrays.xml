@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories" >
+        <item> </item>
+        <item>Games</item>
+        <item>Entertainment</item>
+        <item>Social</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="lang_list" >
+        <!--<item> </item>-->
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+</resources>

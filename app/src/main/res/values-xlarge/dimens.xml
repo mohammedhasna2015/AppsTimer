@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin5">12dp</dimen>
+    <dimen name="margin15">22dp</dimen>
+    <dimen name="margin10">16dp</dimen>
+    <dimen name="category_box_size">270dp</dimen>
+    <dimen name="margin20">35dp</dimen>
+    <dimen name="toggle_size">40dp</dimen>
+    <dimen name="margin30">40dp</dimen>
+    <dimen name="margin50">60dp</dimen>
+    <dimen name="margin45">55dp</dimen>
+    <dimen name="margin40">50dp</dimen>
+    <dimen name="margin24">32dp</dimen>
+    <dimen name="margin25">35dp</dimen>
+    <dimen name="margin55">65dp</dimen>
+    <dimen name="margin70">90dp</dimen>
+    <dimen name="dot_diameter">16dp</dimen>
+    <dimen name="logo_size">340dp</dimen>
+    <dimen name="apps_icon_size">60dp</dimen>
+    <dimen name="access_img_size">150dp</dimen>
+
+    <dimen name="txtSize14">20sp</dimen>
+    <dimen name="txtSize16">22sp</dimen>
+    <dimen name="txtSize18">26sp</dimen>
+    <dimen name="txtSize30">40sp</dimen>
+    <dimen name="margin200">400dp</dimen>
+
+
+</resources>

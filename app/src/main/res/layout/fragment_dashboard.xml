@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin20"
+        android:paddingBottom="@dimen/margin20"
+        android:layout_marginEnd="@dimen/margin15"
+        android:layout_marginStart="@dimen/margin15"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardElevation="5dp"
+            card_view:cardBackgroundColor="#fff"
+            android:padding="@dimen/margin5"
+            android:layout_marginBottom="@dimen/margin15"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_cardview"
+
+                >
+                <ImageView
+                    android:id="@+id/game_img"
+                    android:layout_width="@dimen/margin24"
+                    android:layout_height="@dimen/margin24"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin5"
+                    app:srcCompat="@drawable/ic_gamepad"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/games"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:textSize="@dimen/txtSize18"
+                    android:textColor="#000"
+                    android:layout_toEndOf="@+id/game_img"
+                    />
+
+
+                <View
+                    android:id="@+id/v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/game_img"
+                    />
+
+                <TextView
+                    android:id="@+id/total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_time_in_day"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_below="@+id/v1"
+                    />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/v1"
+                    android:layout_toEndOf="@+id/total_time"
+
+
+                    />
+                <TextView
+                    android:id="@+id/rem_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reminde_time"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_below="@+id/total_time"
+                    />
+                <TextView
+                    android:id="@+id/remTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_below="@+id/time"
+                    android:layout_toEndOf="@+id/rem_time"
+                    />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            card_view:cardElevation="5dp"
+            android:padding="@dimen/margin5"
+            android:layout_marginBottom="@dimen/margin15"
+            card_view:cardPreventCornerOverlap="false"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_cardview"
+
+                >
+
+                <ImageView
+                    android:id="@+id/entertainment_img"
+                    android:layout_width="@dimen/margin24"
+                    android:layout_height="@dimen/margin24"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin5"
+                    app:srcCompat="@drawable/ic_entertainment"
+                    android:tint="#000"
+                    android:layout_alignParentStart="true"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/entertainment"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:textSize="@dimen/txtSize18"
+                    android:textColor="#000"
+                    android:layout_toEndOf="@+id/entertainment_img"
+                    />
+
+
+                <View
+                    android:id="@+id/v2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/entertainment_img"
+                    />
+
+                <TextView
+                    android:id="@+id/total_time_entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_time_in_day"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_below="@+id/v2"
+                    />
+
+                <TextView
+                    android:id="@+id/time_entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/v2"
+                    android:layout_toEndOf="@+id/total_time_entertainment"
+                    />
+                <TextView
+                    android:id="@+id/rem_time_entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reminde_time"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_below="@+id/total_time_entertainment"
+                    />
+                <TextView
+                    android:id="@+id/remTime_entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_below="@+id/time_entertainment"
+                    android:layout_toEndOf="@+id/rem_time_entertainment"
+                    />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            card_view:cardElevation="5dp"
+            android:padding="@dimen/margin5"
+            android:layout_marginBottom="@dimen/margin15"
+            card_view:cardPreventCornerOverlap="false"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_cardview"
+
+                >
+
+                <ImageView
+                    android:id="@+id/social_img"
+                    android:layout_width="@dimen/margin24"
+                    android:layout_height="@dimen/margin24"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin5"
+                    app:srcCompat="@drawable/ic_group"
+                    android:tint="#000"
+                    android:layout_alignParentStart="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/social"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:textSize="@dimen/txtSize18"
+                    android:textColor="#000"
+                    android:layout_toEndOf="@+id/social_img"
+                    />
+
+
+                <View
+                    android:id="@+id/v3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/social_img"
+                    />
+
+                <TextView
+                    android:id="@+id/total_time_social"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_time_in_day"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_below="@+id/v3"
+                    />
+
+                <TextView
+                    android:id="@+id/time_social"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/v3"
+                    android:layout_toEndOf="@+id/total_time_social"
+                    />
+                <TextView
+                    android:id="@+id/rem_time_social"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reminde_time"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_below="@+id/total_time_social"
+                    />
+                <TextView
+                    android:id="@+id/remTime_social"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_below="@+id/time_social"
+                    android:layout_toEndOf="@+id/rem_time_social"
+                    />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            card_view:cardElevation="5dp"
+            android:padding="@dimen/margin5"
+            android:layout_marginBottom="@dimen/margin25"
+            card_view:cardPreventCornerOverlap="false"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_cardview"
+
+                >
+
+                <ImageView
+                    android:id="@+id/others_img"
+                    android:layout_width="@dimen/margin24"
+                    android:layout_height="@dimen/margin24"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin5"
+                    app:srcCompat="@drawable/ic_apps"
+                    android:layout_alignParentStart="true"
+                  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/others"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:textSize="@dimen/txtSize18"
+                    android:textColor="#000"
+                    android:layout_toEndOf="@+id/others_img"
+                    />
+
+
+                <View
+                    android:id="@+id/v4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin5"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/others_img"
+                    />
+
+                <TextView
+                    android:id="@+id/total_time_others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_time_in_day"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_below="@+id/v4"
+                    />
+
+                <TextView
+                    android:id="@+id/time_others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_below="@+id/v4"
+                    android:layout_toEndOf="@+id/total_time_others"
+                    />
+                <TextView
+                    android:id="@+id/rem_time_others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reminde_time"
+                    android:textSize="@dimen/txtSize14"
+                    android:textColor="#000"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin10"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_below="@+id/total_time_others"
+                    />
+                <TextView
+                    android:id="@+id/remTime_others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_specified"
+                    android:textSize="@dimen/txtSize14"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginBottom="@dimen/margin10"
+                    android:layout_below="@+id/time_others"
+                    android:layout_toEndOf="@+id/rem_time_others"
+                    />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CategoryAppsFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/add_apps_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin20"
+        android:gravity="center_vertical"
+        android:background="@drawable/background_home_second"
+        android:clickable="true"
+        android:focusable="true"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_add_app_black"
+            android:layout_marginEnd="@dimen/margin10"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_apps_to_category"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textColor="#000"
+            android:textSize="@dimen/txtSize18"
+            android:textStyle="bold"
+            android:padding="@dimen/margin5"
+            android:textAlignment="viewStart"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+    <CheckBox
+        android:id="@+id/ch_block_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/block_all"
+        android:layout_marginTop="@dimen/margin15"
+        android:layout_marginStart="@dimen/margin10"
+        android:layout_marginEnd="@dimen/margin10"
+        android:layout_marginBottom="@dimen/margin5"
+        android:gravity="start|center_vertical"
+        android:textAlignment="viewStart"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/category_apps_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/margin5"
+        />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/margin5"
+            app:cardCornerRadius="@dimen/margin5"
+            app:cardUseCompatPadding="true"
+            android:clickable="true"
+            android:focusable="true">
+        <Button
+            android:id="@+id/btn_set_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_timer"
+            android:padding="@dimen/margin10"
+            android:textColor="#fff"
+            android:background="@drawable/set_timer_background"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="@dimen/txtSize18"
+            />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_apps"
+        android:background="#fff"
+        android:visibility="gone"
+       />
+
+</LinearLayout>

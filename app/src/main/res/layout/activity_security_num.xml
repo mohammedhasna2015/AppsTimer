@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lock_screen_background"
+    android:gravity="center"
+    tools:context=".activities.SecurityNumActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin30"
+        android:text="@string/enter_your_security_number"
+        android:textSize="@dimen/txtSize16"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="#fff"/>
+    <com.andrognito.pinlockview.IndicatorDots
+        android:id="@+id/indicator_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin40"
+
+        />
+
+    <com.andrognito.pinlockview.PinLockView
+        android:id="@+id/pin_lock_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin30"
+        app:pinLength="4"
+        app:keypadTextColor="#000"
+        app:keypadTextSize="16dp"
+        app:keypadButtonSize="@dimen/margin50"
+        app:keypadVerticalSpacing="@dimen/margin45"
+        app:keypadHorizontalSpacing="@dimen/margin45"
+        app:keypadDeleteButtonSize="@dimen/margin15"
+        app:keypadShowDeleteButton="true"
+        app:keypadDeleteButtonPressedColor="#C8C8C8"
+        app:dotDiameter="@dimen/dot_diameter"
+        app:dotSpacing="@dimen/margin30"
+        app:indicatorType="fillWithAnimation"
+
+        app:keypadButtonBackgroundDrawable="@drawable/keyboard_button"
+        />
+
+</LinearLayout>

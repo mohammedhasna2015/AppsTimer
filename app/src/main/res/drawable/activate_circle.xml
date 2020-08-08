@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <size android:width="@dimen/margin55"
+                android:height="@dimen/margin55"/>
+            <padding android:bottom="@dimen/margin10"
+                android:left="@dimen/margin10"
+                android:right="@dimen/margin10"
+                android:top="@dimen/margin10"/>
+            <solid android:color="@color/home_second_color"/>
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_home_lock_black"/>
+
+
+
+</layer-list>

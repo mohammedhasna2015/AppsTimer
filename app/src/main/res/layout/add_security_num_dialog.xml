@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin15"
+        android:paddingBottom="@dimen/margin15"
+        android:text="@string/add_security_number"
+        android:background="@color/home_red"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/txtSize16"
+        />
+
+    <TextView
+        android:id="@+id/add_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin15"
+        android:textSize="@dimen/txtSize14"
+        android:textColor="#000"
+        android:textAlignment="viewStart"
+        android:text="@string/add_security_num_txt"
+        android:layout_below="@+id/title"/>
+
+    <EditText
+        android:id="@+id/et_security_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin15"
+        android:layout_marginEnd="@dimen/margin15"
+        android:layout_marginBottom="@dimen/margin10"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_below="@+id/add_txt"
+        android:hint="@string/enter_security_num"
+        android:textAlignment="center"
+        android:background="@drawable/edit_txt_background"
+        android:padding="@dimen/margin10"
+        android:textSize="@dimen/txtSize16"
+        android:inputType="number"
+        android:maxLength="4"/>
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin15"
+        android:textSize="@dimen/txtSize16"
+        android:textStyle="bold"
+        android:textColor="@color/home_red"
+        android:layout_below="@+id/et_security_num"
+        android:text="@string/security_note"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn_add_security_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save"
+        android:layout_below="@+id/note"
+        android:background="@color/home_red"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/txtSize16"
+        android:layout_marginBottom="@dimen/margin20"
+        />
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apptimer.apptimer.utils.SwipeRevealLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:dragFromEdge="right">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+            <ImageButton
+                android:id="@+id/btn_delete_app"
+                android:layout_width="@dimen/margin40"
+                android:layout_height="@dimen/margin40"
+                android:layout_gravity="end|center_vertical"
+                android:background="#00000000"
+                android:scaleType="fitXY"
+                android:layout_marginStart="@dimen/margin10"
+                android:layout_marginEnd="@dimen/margin10"
+                app:srcCompat="@drawable/ic_delete"
+                />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:card-view="http://schemas.android.com/apk/res-auto"
+            android:clickable="true"
+            android:focusable="true"
+            card-view:cardElevation="2dp"
+            android:id="@+id/apps_cardView"
+            card-view:cardUseCompatPadding="true"
+
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin10">
+
+                <ImageView
+                    android:id="@+id/app_icon"
+                    android:layout_width="@dimen/apps_icon_size"
+                    android:layout_height="@dimen/apps_icon_size"
+                    android:src="@mipmap/icon"
+                    android:scaleType="centerCrop" />
+
+                <CheckBox
+                    android:id="@+id/switch_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/margin5"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:button="@drawable/lock_check_button"
+                    />
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/app_icon"
+                    android:layout_toStartOf="@+id/switch_lock"
+                    android:layout_marginStart="@dimen/margin10"
+                    android:layout_marginEnd="@dimen/margin5"
+                    android:textAlignment="viewStart"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txtSize16"/>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </FrameLayout>
+</com.apptimer.apptimer.utils.SwipeRevealLayout>

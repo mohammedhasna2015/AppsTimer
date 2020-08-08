@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.BlockActivity"
+    android:background="@color/home_second_color"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/time_out"
+        android:paddingEnd="@dimen/margin15"
+        android:paddingStart="@dimen/margin15"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/run_out_of_time"
+        android:layout_marginTop="@dimen/margin30"
+        android:layout_marginEnd="@dimen/margin15"
+        android:layout_marginStart="@dimen/margin15"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/txtSize18"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/block_txt"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_marginEnd="@dimen/margin10"
+        android:layout_marginStart="@dimen/margin10"
+        android:textSize="@dimen/txtSize14"
+        android:textColor="@color/colorPrimary"
+        />
+</LinearLayout>

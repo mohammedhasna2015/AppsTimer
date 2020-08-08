@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#333334</color>
+    <color name="colorPrimary">#0e0e12</color> <!-- #3F51B5    #e62d2d-->
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#e62d2d</color>
+    <color name="light_gray">#a0a0a0</color>
+    <color name="home_red">#a73131</color>
+    <!--da4141   bc3737-->
+    <color name="white">#fff</color>
+    <color name="home_second_color">#c8b8b7</color>
+    <color name="home_second_color_pressed">#b2a4a3</color>
+    <color name="home_red_pressed">#8d2929</color>
+
+
+
+
+     <!--Intro Slider -->
+
+
+    <!-- Screens background color-->
+
+
+    <!-- dots inactive colors -->
+
+    <color name="dot_dark_screen2">#c54444</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen2">#f57f7f</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen2</item>
+    </array>
+</resources>

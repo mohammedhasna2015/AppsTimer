@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">AppTimer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Timer Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_settings">Settings</string>
+    <string name="home_txt">Manage Your Applications of these categories</string>
+    <string name="games">Games</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="social">Social</string>
+    <string name="others">Others</string>
+    <string name="select_days">Select Specific Days</string>
+    <string name="select_date_range">Select Date Range</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="set_time">Set Activation Time per Day</string>
+    <string name="hours">hr</string>
+    <string name="minutes">min</string>
+    <string name="done">Done</string>
+    <string name="add_apps_to_category">Add apps to this category</string>
+    <string name="block_all">Block all apps</string>
+    <string name="no_apps">There is no apps in this category</string>
+    <string name="set_timer">Set Timer</string>
+    <string name="installed_apps">Installed Apps</string>
+    <string name="no_locked_apps">You Don\'t Locked any app in this category</string>
+    <string name="missing_date">You must enter the start and end date</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discard</string>
+    <string name="changes_discarded">Your changes won\'t be saves</string>
+
+    <string name="accessibility_service_description">Get foreground activity information</string>
+    <string name="not_specified">not specified</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_remove_app">Are you sure you want to delete this app from its category?</string>
+    <string name="stop_timer">Stop Timer</string>
+    <string name="start_timer"> Start Timer</string>
+    <string name="run_out_of_time">You have run out of time for this app</string>
+    <string name="block_txt">You will be able to use it after 12am</string>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="start">Start</string>
+    <string name="slide1_txt">The best choice to follow up your children</string>
+    <string name="slide2_txt">You can adjust the time allowed to use applications</string>
+    <string name="slide3_txt">Do not worry about your children anymore</string>
+    <string name="be_reassured">Be reassured</string>
+    <string name="next"><![CDATA[ Next >>]]></string>
+    <string name="total_time_in_day">Total Time in day:</string>
+    <string name="reminde_time">Remaining Time:</string>
+    <string name="general">General</string>
+    <string name="language">Language</string>
+    <string name="security_settings">Security Settings</string>
+    <string name="about">About</string>
+    <string name="app_version">App Version 1.0</string>
+    <string name="change_security_num">Change Security Number</string>
+    <string name="block_device_settings">Block Device Settings</string>
+    <string name="select_language">Select Language</string>
+    <string name="current_num">Current Number</string>
+    <string name="new_number">New Number</string>
+    <string name="confirm_number">Confirm Number</string>
+    <string name="empty_error">This Field can\'t be empty</string>
+    <string name="wrong_num">Wrong Number</string>
+    <string name="no_match">Not Match</string>
+    <string name="add_security_number">Add Security Number</string>
+    <string name="add_security_num_txt">After Closing this app, It\'s icon will be hidden. So, you need the security number to be able to show the app icon again.\nMake a call to your security number whenever you want to show the app icon</string>
+    <string name="enter_security_num">Enter Your Security Number Here</string>
+    <string name="security_note">You have to remember this number to be able to use the app again.</string>
+    <string name="enter_your_security_number">Enter Your Security Number</string>
+    <string name="rate">Rate App</string>
+    <string name="dont_show_again">Don\'t Show Again</string>
+    <string name="check_access">Check Accessibility</string>
+    <string name="go_to_accessibility_settings">Go To Accessibility Settings</string>
+    <string name="check_access_txt">You have to turn accessibility \"ON\" for this app in order to get the required functionality and make the timer working correctly. </string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="yes">Yes</string>
+    <string name="confirm_exit">Are you sure you want to exit the app?</string>
+    <string name="no">No</string>
+
+
+</resources>
